@@ -1,0 +1,94 @@
+Body 
+{
+ 
+  background-image: linear-gradient(to right, pink, green, purple, red,red, yellow, blue);
+  color: chartreuse;
+  margin: 0px;
+  padding: 1px;
+  font-family: "zain", sans-serif;
+}
+
+iframe
+{
+  border: solid 25px rgb(255, 0, 115);
+}
+
+/* código omitido */
+
+header {
+  border-bottom: solid 2px rgb(100, 122, 228);
+  border-top: solid 2px  rgb(255, 0, 149);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(231, 12, 12);
+}
+
+
+/* código omitido */
+
+section {
+  background-image: radial-gradient(orange,brown,chocolate, violet, black);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+}
+
+.chamada {
+  background: radial-gradient(yellow, blue, lime, brown);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
+
+
+img {
+  height: 200px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.categoria-videos img {
+  opacity: 0.5;
+  height: 200px
+  
+}
+/* código escondido */
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  border: 1px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+
+}
